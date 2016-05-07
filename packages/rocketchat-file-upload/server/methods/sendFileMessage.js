@@ -12,7 +12,7 @@ Meteor.methods({
 
 		RocketChat.models.Uploads.updateFileComplete(file._id, Meteor.userId(), _.omit(file, '_id'));
 
-		var fileUrl = '/file-upload/' + file._id + '/' + file.name;
+		var fileUrl = Meteor.absoluteUrl('file-upload/') + file._id + '/' + file.name;
 
 		var attachment = {
 			title: `File Uploaded: ${file.name}`,
