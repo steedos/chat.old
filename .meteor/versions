@@ -207,6 +207,7 @@ spacebars@1.0.7
 spacebars-compiler@1.0.7
 srp@1.0.4
 standard-minifiers@1.0.2
+steedos:meteor-cookie-login@0.0.1
 steffo:meteor-accounts-saml@0.0.1
 tap:i18n@1.8.0
 templating@1.1.5
