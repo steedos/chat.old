@@ -83,7 +83,6 @@ configurePush = ->
 			apn: apn
 			gcm: gcm
 			production: RocketChat.settings.get 'Push_production'
-			sendInterval: 1000
 			sendBatchSize: 10
 
 		if RocketChat.settings.get('Push_enable_gateway') is true
